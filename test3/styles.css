@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.sky {
+    background-color: #87CEEB;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.airplane {
+    width: 150px; 
+    height: 150px; 
+    background-image: url('plane.png');
+    background-size: cover;
+    position: absolute;
+    top: 20%;
+    left: -50px;
+    transform: translateY(-10%);
+    border-radius: 50%;
+}
